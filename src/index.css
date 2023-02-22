@@ -65,7 +65,7 @@ ul {
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 100px;
   padding: 0;
 }
 
@@ -73,21 +73,24 @@ body {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 44px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 74px;
+  height: 74px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 74px;
 }
+
+
 
 .board-row:after {
   clear: both;
   content: '';
   display: table;
+  margin: 0 auto;
 }
 
 .status {
@@ -96,8 +99,10 @@ body {
 .game {
   display: flex;
   flex-direction: row;
+  margin-left: 600px;
 }
 
 .game-info {
   margin-left: 20px;
+  font-size: 0.8em;
 }
